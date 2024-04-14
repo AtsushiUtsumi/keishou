@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HogeApplication",
+            "request": "launch",
+            "mainClass": "com.example.hoge.HogeApplication",
+            "projectName": "spring"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HogeApplication<hoge>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.hoge.HogeApplication",
+            "projectName": "hoge",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
